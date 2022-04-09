@@ -1,5 +1,5 @@
 function inverseCaptcha(num) {
-    // change num insto string and then array
+    // change num into string and then array
   const numArr = num.toString().split("");
   let sum = 0;
   for (let i = 0; i < numArr.length; i++) {
